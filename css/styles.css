@@ -1,8 +1,10 @@
 body {
     background-color: #FFFFFF;
     color: #757575;
-    font-family: 'Roboto', Raleway;
-    
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
 }
 
 .list {
@@ -15,19 +17,17 @@ body {
 /* Логотип */
 .logo {
     color: #000000;
-    font-family: 'Raleway';
-    font-weight: 700;
+    font-family: Raleway, cursive;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 
-.firsthalflogo {color: #2196F3;}
+.accent {color: #2196F3;}
 
 .site-nav a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -41,7 +41,7 @@ body {
 .contacts a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
