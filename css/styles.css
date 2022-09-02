@@ -62,7 +62,12 @@ body {
 .site-nav .link:focus,
 .site-nav .link.current,
 .contacts .link:hover,
-.contacts .link:focus {
+.contacts .link:focus,
+.footer-link .map:hover,
+.footer-link .map:focus,
+.footer-link .contacts:hover,
+.footer-link .contacts:focus
+ {
     color: var(--accent-color);
 }
 
