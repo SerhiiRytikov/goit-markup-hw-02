@@ -2,6 +2,7 @@
     --primery-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --secondary-bg-color: #F5F4FA;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 /* Акцент #2196F3*/
 /* вторинний колір фону #F5F4FA color class=sbk (secondary background color)*/ 
 .sbk {
-    background-color: #F5F4FA
+    background-color: var(--secondary-bg-color)
 }
 
 /* Заголовок сайту */
@@ -143,3 +144,19 @@ body {
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Стилі для портфоліо */
+/* Кнопки */
+.buttons {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+.buttons:hover,
+.buttons:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
